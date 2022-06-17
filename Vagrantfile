@@ -24,6 +24,7 @@ end
      sudo systemctl enable docker
      sudo systemctl start docker
      sudo usermod -aG docker ${USER}
+     sudo apt install -y pip --upgrade
      sudo reboot
  SHELL
 
